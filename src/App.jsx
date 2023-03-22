@@ -1,5 +1,9 @@
+import Info from "./components/Info/Info";
+
 const App = () => {
-	return <h1>Núcleo de la aplicación</h1>;
+	return (
+		<Info/>
+	);
 };
 
 export default App;
