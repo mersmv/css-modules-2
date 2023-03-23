@@ -1,8 +1,10 @@
-import Info from "./components/Info/Info";
+
+import MainCont from "./components/MainCont/MainCont";
+
 
 const App = () => {
 	return (
-		<Info/>
+		<MainCont/>
 	);
 };
 

@@ -3,7 +3,7 @@
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    line-height: 15px;
+    color: var(--grey);
 }
 
 .info-title-sub{
@@ -20,4 +20,5 @@
     font-size: 1rem;
     font-weight: 400;
     line-height: 25px;
+    opacity: 0.5;
 }

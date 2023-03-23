@@ -1,0 +1,84 @@
+.card{
+    width: 315px;
+    height: 200px;
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 5px 5px 25px lightslategray;
+    position: relative;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.card-title{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.card-subtitle{
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.card-icon{
+    position: absolute;
+    right: 40px;
+    bottom: 40px;
+}
+
+.card-deco{
+    position: absolute;
+    width: 340px;
+    height: 5px;
+    border-top-right-radius: 600px;
+    border-top-left-radius: 600px;
+    top: 0;
+    left: 0;
+}
+
+.blue{
+    background-color: var(--blue);
+}
+
+
+.red{
+    background-color: var(--red);
+}
+
+.yellow{
+    background-color: var(--yellow);
+}
+
+.green{
+    background-color: var(--green);
+}
+
+
+@media screen and (min-width:768px){
+    .fourth{
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 4;
+    }
+    .second{
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+    .first{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 4;
+    }
+    .third{
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 3;
+        grid-row-end: 5;
+    }
+
+}
